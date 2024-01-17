@@ -144,7 +144,6 @@ main {
     gap: 33px;
 }
 
-.sitenav_item {}
 
 .sitenav_link {
     color: var(--gray);
