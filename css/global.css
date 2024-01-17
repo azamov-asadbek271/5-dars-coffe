@@ -54,6 +54,7 @@ body {
     height: 100%;
     display: flex;
     flex-direction: column;
+    font-family: 'Barlow';
 }
 main {
     flex-grow: 1;
