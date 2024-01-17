@@ -8,6 +8,7 @@
     --preferance-bg: #f4f1eb;
     --button-hover: #66d2cf;
     --button-disabeled: #e2dedb;
+    --footer-bg:#2C343E;
 
     /* fonts */
     --title-font-family: "Fraunces", sans-serif;
@@ -57,6 +58,10 @@
 html {
     height: 100%;
 }
+#active {
+    text-decoration: underline;
+}
+
 a {
     text-decoration: none;
 }
@@ -133,7 +138,6 @@ main {
 }
 
 
-.sitenav {}
 
 .sitenav_list {
     display: flex;
@@ -155,3 +159,48 @@ main {
     color: var(--dark-grey-blue);
 }
 /* header end */
+
+/* footer */
+.footer-container {
+   background-color: var(--footer-bg);
+   margin-bottom: 88px;
+   display: flex;
+   align-items: center;
+   padding: 47px 85px;
+}
+
+
+
+.footer-logo {
+    margin-right: 102px;
+    transition: 0.5s;
+}
+.footer-logo:hover {
+    opacity: 0.6;
+}
+
+
+
+
+.footer-sitenav {
+    margin-right: auto;
+}
+.footer-sitenav .sitenav_link:hover {
+    color: #ffff;
+}
+
+
+.footer_socials-list {
+    display: flex;
+    gap: 26px;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_socials-link svg path {
+    transition: 0.3s;
+}
+
+.footer_socials-link svg path:hover  {
+    fill:var(--pale-orange)
+}
